@@ -13,16 +13,12 @@ use Illuminate\Support\Facades\ {
 
 // Make sure that path '/' goes to '/pocetna'
 Route::get('/', function () {
-    return to_route('redirect');
+    return to_route('login');
 });
 
 // Translate - change locale
 Route::get('lang/change', [LanguageController::class, 'change'])
      ->name('changeLang');
-
-// Welcome view
-Route::view('/pocetna', 'welcome.welcome')->name('redirect')
-     ->middleware('librarian-not-librarian');
 
 // Middleware protection
 Route::middleware('see-you-later-protection')->group(function () {
