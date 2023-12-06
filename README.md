@@ -180,8 +180,8 @@ php artisan backup:run
 | Izdate knjige                | ✔️ | ✔️ | ❌ |
 | Vraćene knjige               | ✔️ | ✔️ | ❌ |
 | Knjige u prekoračenju        | ✔️ | ✔️ | ❌ |
-| Aktivne rezervacije knjiga   | ✔️ | ✔️ | ✔️ |
-| Arhivirane rezervacije knjiga| ✔️ | ✔️ | ✔️ |
+| Aktivne Book reservations   | ✔️ | ✔️ | ✔️ |
+| Arhivirane Book reservations| ✔️ | ✔️ | ✔️ |
 | Rezervacija knjige           | ✔️ | ✔️ | ✔️ |
 
 ## Napomena:

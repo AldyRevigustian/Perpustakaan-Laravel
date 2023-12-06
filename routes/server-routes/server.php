@@ -34,8 +34,8 @@ Auth::routes(['register' => false, 'login' => false, 'reset' => false, 'verify' 
 
 // Login routes
 Route::controller(LoginController::class)->group(function () {
-    Route::get('uloguj-se', 'showLoginForm')->name('login');
-    Route::post('uloguj-se', 'login');
+    Route::get('login', 'showLoginForm')->name('login');
+    Route::post('login', 'login');
 // Logout route
     Route::get('/logout', 'logout');
 

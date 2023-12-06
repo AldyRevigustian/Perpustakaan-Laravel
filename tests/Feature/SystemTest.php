@@ -52,7 +52,7 @@ class SystemTest extends TestCase
 
     public function test_users_can_not_authenticate_with_invalid_password()
     {
-        $this->post('/uloguj-se', [
+        $this->post('/login', [
             'email'    => 'admin@gmail.com',
             'password' => 'wrong-password',
         ]);

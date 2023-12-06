@@ -298,7 +298,7 @@
                     <div class="mr-[50px]">
                 <span id="tooltip_2" style="font-size: 1.3em" class="cursor-default uppercase mr-[0px] text-left"
                 >
-                    {{__('Rezervacije knjiga')}}
+                    {{__('Book reservations')}}
 
                 </span>
 
